@@ -37,8 +37,8 @@ dependencies: {
     "mongoose": "^5.0.17",}
 
 Folder edit-time-file is an vscode extension, to load the extension, you need to copy the folder to your VS Code extensions folder, Depending on your platform, it is located in the following folders:
-Windows %USERPROFILE%\.vscode\extensions//
-macOS ~/.vscode/extensions
-Linux ~/.vscode/extensionspath ~/.vscode/extensions
+Windows %USERPROFILE%\.vscode\extensions,
+macOS ~/.vscode/extensions,
+Linux ~/.vscode/extensionspath ~/.vscode/extensions.
 
 **Enjoy!**
