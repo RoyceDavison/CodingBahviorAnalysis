@@ -3,11 +3,15 @@ The is the project designed for course CS496.
 Instructions:
 We analyzes people coding behavior by record their key press frequency and the screenshot of their desktop working environment.
 
-I.Key Binding & Code Difference
+I.Key Binding & Code Difference & II.DataBase and Server Communication:
 
-
-II.DataBase and Server Communication
-
+To Run the typescript extension first set up a local postgres database. This can be easily done on command line.
+For windows and Mac setup follow:https://stackoverflow.com/questions/7975556/how-to-start-postgresql-server-on-mac-os-x
+After setting up the database simply change the connection string variable in routs.ts in src:
+From:
+var conString = "postgres://Abhay:12345@localhost:5000/STUDENTDATA";
+To:
+var conString = "postgres://YourUserName:YourPassword@localhost:YourPort/YourDatabase";
 
 III.Picture Capture and Analysis
 
